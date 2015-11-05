@@ -1,0 +1,98 @@
+/* Notices */
+.ib-slideshow-error {
+	color: #a00;
+}
+
+/* Fields */
+.ib-slideshow-field .label {
+	font-weight: 600;
+	margin-bottom: 5px;
+}
+
+.ib-slideshow-field {
+	margin-bottom: 1em;
+}
+
+/* Slides */
+#ib-slideshow-slides {
+	border-collapse: collapse;
+	width: 100%;
+}
+
+.ib-slideshow-slide td {
+	background-color: #fff;
+	border: 1px solid #ddd;
+}
+
+/* Slide handle */
+.ib-slideshow-slide .slide-handle {
+	cursor: move;
+	text-align: center;
+	width: 30px;
+}
+
+.ib-slideshow-slide .slide-handle span {
+	color: #aaa
+}
+
+/* Slide image */
+.ib-slideshow-slide .slide-image {
+	height: 60px;
+	padding: 10px;
+	vertical-align: top;
+	width: 60px;
+}
+
+.ib-slideshow-slide .slide-image img {
+	display: block;
+	height: auto;
+	width: 100%;
+}
+
+/* Slide settings */
+.ib-slideshow-slide .slide-settings {
+	padding: 10px;
+	vertical-align: top;
+}
+
+/* Slide options */
+.ib-slideshow-slide .slide-options {
+	margin-bottom: 1em;
+}
+
+.ib-slideshow-slide .slide-options a {
+	display: inline-block;
+	margin-right: 10px;
+}
+
+.ib-slideshow-slide .slide-options .close-slide {
+	display: none;
+}
+
+.ib-slideshow-slide.open .slide-options .close-slide {
+	display: inline-block;
+	font-weight: 600;
+	text-decoration: none;
+}
+
+.ib-slideshow-slide.open .slide-options .open-slide {
+	display: none;
+}
+
+.ib-slideshow-slide .slide-options .delete {
+	color: #a00;
+	text-decoration: none;
+}
+
+.ib-slideshow-slide .slide-options .delete:hover {
+	color: red;
+}
+
+/* Slide meta */
+.ib-slideshow-slide .slide-meta {
+	display: none;
+}
+
+.ib-slideshow-slide.open .slide-meta {
+	display: block;
+}
