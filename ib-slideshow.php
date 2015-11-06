@@ -2,7 +2,7 @@
 /*
 Plugin Name: ib-slideshow
 Description: Provides a UI to create slideshows
-Version: 1.1
+Version: 1.1.0
 Author: educatorteam
 Author URI: http://educatorplugin.com
 License: GPLv2 or later
